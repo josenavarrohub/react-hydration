@@ -2,9 +2,9 @@
 
 An experiment to manually configure SSR and CSR with React.
 
-[![React Hydration](https://github.com/josenavarrohub/react-hydration/blob/main/demo.png?raw=true)]
+![React Hydration](https://github.com/josenavarrohub/react-hydration/blob/main/demo.png?raw=true)
 
-[![Source code](https://github.com/josenavarrohub/react-hydration/blob/main/source-code.png?raw=true)]
+![Source code](https://github.com/josenavarrohub/react-hydration/blob/main/source-code.png?raw=true)
 
 ## Prerequisites
 
