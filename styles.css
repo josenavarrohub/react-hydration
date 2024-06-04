@@ -1,0 +1,77 @@
+/* Typeface */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #23272f;
+  color: #f6f7f9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+span {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #58c4dc;
+  color: #404756;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 9999px;
+  font-weight: 600;
+  min-width: 120px;
+}
+
+/* Components */
+.c-fruit-list {
+	width: 600px;
+}
+.c-fruit-list h1,
+.c-fruit-list p {
+	text-align: center;
+}
+.c-fruit-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.c-fruit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(88, 175, 223, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.c-fruit-item span:first-child {
+	width: 130px;
+}
